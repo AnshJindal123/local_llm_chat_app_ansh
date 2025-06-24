@@ -45,6 +45,12 @@ Users can chat with the LLM, upload `.txt` files to provide additional context, 
 
 ##  4. Setup Instructions
 
+## Clone the Repository
+```bash
+git clone https://github.com/AnshJindal123/local_llm_chat_app_ansh.git
+cd local-llm-chat-app
+```
+
 ###  Backend (FastAPI)
 
 ```bash
