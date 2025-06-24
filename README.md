@@ -1,12 +1,12 @@
 
-# 🧠 Local LLM Chat Application
+# Local LLM Chat Application
 
 **Author:** Ansh Jindal  
 **Repository:** [local_llm_chat_app_ansh](https://github.com/AnshJindal123/local_llm_chat_app_ansh)
 
 ---
 
-## 📌 1. Project Overview
+## 1. Project Overview
 
 This full-stack web application integrates a local Large Language Model (LLM) using **LM Studio**, enabling contextual and memory-aware chat functionalities.
 
@@ -20,18 +20,18 @@ Users can chat with the LLM, upload `.txt` files to provide additional context, 
 
 ---
 
-## 🚀 2. Features
+## 2. Features
 
-- 🧠 **Contextual Chat**: Uses local LLM via LM Studio
-- 🧬 **Vector Memory**: Embeddings retrieved via FAISS (384-d vectors)
-- 📁 **Text File Upload**: Allows long context ingestion (.txt only)
-- 🗣️ **Session-based Memory**: User ID stored with UUID in `localStorage`
-- 💾 **MongoDB Integration**: Stores per-session messages
-- 🔁 **Reset Button**: Clears backend memory via a REST endpoint
+-  **Contextual Chat**: Uses local LLM via LM Studio
+-  **Vector Memory**: Embeddings retrieved via FAISS (384-d vectors)
+-  **Text File Upload**: Allows long context ingestion (.txt only)
+-  **Session-based Memory**: User ID stored with UUID in `localStorage`
+-  **MongoDB Integration**: Stores per-session messages
+-  **Reset Button**: Clears backend memory via a REST endpoint
 
 ---
 
-## 🧱 3. Tech Stack
+##  3. Tech Stack
 
 | Layer     | Technology                    |
 |-----------|-------------------------------|
@@ -43,9 +43,9 @@ Users can chat with the LLM, upload `.txt` files to provide additional context, 
 
 ---
 
-## 🛠️ 4. Setup Instructions
+##  4. Setup Instructions
 
-### 📦 Backend (FastAPI)
+###  Backend (FastAPI)
 
 ```bash
 cd backend
@@ -57,7 +57,7 @@ uvicorn main:app --reload
 
 Ensure **LM Studio** is running on: `http://localhost:1234`
 
-### 🎨 Frontend (React)
+###  Frontend (React)
 
 ```bash
 cd frontend
@@ -67,7 +67,7 @@ npm run start
 
 ---
 
-## 🧪 5. Testing Instructions
+##  5. Testing Instructions
 
 - Upload a `.txt` file to populate vector memory
 - Ask questions that reference the uploaded content
@@ -85,7 +85,7 @@ File Upload → Chunk Text → Vectorize → FAISS Store → Used as Context in 
 
 ---
 
-## 🧹 7. Reset & Cleanup
+##  7. Reset & Cleanup
 
 Click the **Reset Memory** button on the UI to:
 - Clear FAISS index (in-memory)
@@ -95,7 +95,7 @@ This ensures the next interaction starts with a clean slate.
 
 ---
 
-## 📎 8. Sample `.env` (for backend)
+##  8. Sample `.env` (for backend)
 
 ```
 MONGODB_URI=mongodb://localhost:27017
@@ -104,7 +104,7 @@ DB_NAME=llmchat
 
 ---
 
-## 📷 9. Screenshot Suggestion
+##  9. Screenshot Suggestion
 
 ```
 [Upload] → [Vectorization + FAISS] → [Chat Prompt with Context] → [LM Studio] → [Response]
@@ -114,13 +114,13 @@ DB_NAME=llmchat
 
 ---
 
-## 📄 License
+##  License
 
 You can add `MIT` or `Apache 2.0` license based on your preference.
 
 ---
 
-## ✅ Final Note
+##  Final Note
 
 This project demonstrates how powerful local LLMs can be when paired with real-time vector search, memory handling, and clean UI design.
 
