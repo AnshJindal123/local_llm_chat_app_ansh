@@ -102,24 +102,6 @@ MONGODB_URI=mongodb://localhost:27017
 DB_NAME=llmchat
 ```
 
----
-
-##  9. Screenshot Suggestion
-
-```
-[Upload] → [Vectorization + FAISS] → [Chat Prompt with Context] → [LM Studio] → [Response]
-```
-
-> Add your own screenshots in the repo’s README to illustrate these components visually.
-
----
-
-##  License
-
-You can add `MIT` or `Apache 2.0` license based on your preference.
-
----
-
 ##  Final Note
 
 This project demonstrates how powerful local LLMs can be when paired with real-time vector search, memory handling, and clean UI design.
