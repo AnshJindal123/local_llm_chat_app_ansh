@@ -76,7 +76,7 @@ npm run start
 
 ---
 
-## 📊 6. System Flow (Conceptual)
+## 6. System Flow (Conceptual)
 
 ```text
 User Message → FAISS Context Retrieval → LM Studio Prompt → Response → MongoDB (store)
