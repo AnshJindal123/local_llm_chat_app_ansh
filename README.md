@@ -72,6 +72,7 @@ npm run start
 - Ask questions that reference the uploaded content
 - Use the chat UI to engage in multi-turn conversations
 - Press the **Reset Memory** button to clear backend memory
+- Provide many sentences to test context and ask a random question from a sentence
 
 ---
 
